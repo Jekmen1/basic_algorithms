@@ -145,7 +145,7 @@ class Queue:
     def is_empty(self):
         return len(self.items) == 0
 
-# Test the implementation
+
 queue = Queue()
 queue.enqueue(1)
 queue.enqueue(2)
